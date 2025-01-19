@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className={`min-h-screen ${backgroundColor} flex flex-col items-center justify-center font-sans`}>
-      <h1 className="text-5xl mb-6 font-display text-primary">Emoji Mood Tracker 🎭</h1>
+      <h1 className="text-5xl mb-6 font-display text-primary">Emoji Mood Song 🎭</h1>
       <div className="flex space-x-4 mb-8">
         {emojis.map((emoji) => (
           <button
